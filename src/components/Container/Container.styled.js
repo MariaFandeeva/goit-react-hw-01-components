@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const PrContainer = styled.div`
   min-width: 1200px;
   display: flex;
   flex-direction: column;
