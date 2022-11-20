@@ -6,11 +6,11 @@ import { FriendList } from './FriendList/FriendList';
 import friends from './FriendList/friends.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json';
-import { Container } from './Container/Container.styled';
+import { PrContainer } from './Container/Container.styled';
 
 export const App = () => {
   return (
-    <Container>
+    <PrContainer>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -22,6 +22,6 @@ export const App = () => {
       {/* <Statistics stats={data} /> */}
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
-    </Container>
+    </PrContainer>
   );
 };
